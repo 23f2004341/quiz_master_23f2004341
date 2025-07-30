@@ -1,0 +1,19 @@
+# Copy this file to .env and update with your actual values
+
+# Email Configuration
+MAIL_USERNAME=your_email@gmail.com
+MAIL_PASSWORD=your_16_character_app_password
+MAIL_DEFAULT_SENDER=your_email@gmail.com
+
+# Celery Configuration
+CELERY_BROKER_URL=redis://localhost:6379/0
+CELERY_RESULT_BACKEND=redis://localhost:6379/0
+
+# Daily Reminder Configuration
+DAILY_REMINDER_TIME=18:00
+DAILY_REMINDER_HOUR=18
+DAILY_REMINDER_MINUTE=0
+REMINDER_USE_EMAIL=true
+REMINDER_USE_GOOGLE_CHAT=false
+REMINDER_USE_SMS=false
+GOOGLE_CHAT_WEBHOOK_URL=your_google_chat_webhook_url_here 

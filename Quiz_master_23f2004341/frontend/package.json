@@ -1,0 +1,24 @@
+{
+  "name": "quiz-master-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bootstrap": "^5.0.0",
+    "chart.js": "^4.0.0",
+    "vue": "^2.7.16",
+    "vue-router": "^3.5.4"
+  },
+  "main": "main.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@vue/cli-service": "^5.0.8"
+  }
+}
